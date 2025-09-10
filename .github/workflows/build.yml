@@ -31,7 +31,7 @@ jobs:
         run: git config --global user.email "actions@github.com" && git config --global user.name "Github Actions"
 
       - name: Build plugin
-        run: ./gradlew clean build
+        run: ./gradlew shadowJar
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
