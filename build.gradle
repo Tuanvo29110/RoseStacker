@@ -42,6 +42,7 @@ allprojects {
         maven { url = 'https://repo.bsdevelopment.org/releases' }
         maven { url = 'https://nexus.neetgames.com/repository/maven-releases/' }
         maven { url = 'https://jitpack.io' }
+        maven { url = 'https://maven.citizensnpcs.co/repo' }
     }
 
     dependencies {
